@@ -5,3 +5,51 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+header{
+    background-color: #0084fd;
+    height: 50px;
+}
+
+.white-color{
+    color: white;
+}
+
+.flex{
+    display: flex;
+}
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+.container{
+    max-width: 480px;
+    margin: auto;
+}
+.header-wrapper{
+    justify-content: space-between;
+    align-items: center;
+}
+.left-side-header{
+
+}
+.right-side-header{
+
+}
+.right-side-header>ul{
+    list-style-type: none;
+    display: none;
+}
+.right-side-header ul li a{
+    text-decoration: none;
+}
+.first-section{
+    padding: 2rem 0;
+}
+.card{
+    width: 100%;
+    /* width: calc((100% / 3) *2); */
+    height: 400px;
+    background-color: #b5ddff;
+    border-radius: 1rem;
+}
