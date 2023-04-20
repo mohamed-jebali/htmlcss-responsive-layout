@@ -8,7 +8,6 @@
 
 header{
     background-color: #0084fd;
-    height: 50px;
 }
 
 .white-color{
@@ -32,6 +31,7 @@ header{
 .header-wrapper{
     justify-content: space-between;
     align-items: center;
+    padding: 1rem 2rem;
 }
 .left-side-header{
 
@@ -50,11 +50,14 @@ header{
     padding: 4rem 0;
 }
 .card{
-    width: 80%;
-    height: 650px;
+    width: 85%;
+    height: 800px;
     background-color: #b5ddff;
     border-radius: 1rem;
     margin-bottom: 1.5rem;
+}
+.small{
+    height: 400px;
 }
 
 
@@ -67,15 +70,18 @@ header{
  /* Tablet dai 480 a 768px */
 
  @media screen and (min-width: 480px) {
+
     .container{
-        width: calc((100% / 3) *2);
         flex-direction: row;
+    }
+    .card{
+        width: calc(100% / 2);
     }
  }
  /* Desktop dai 768px in su */
 
   @media screen and (min-width: 768px) {
     .container{
-        width: 100%;
+        /* width: calc(100% * 2); */
     }
  }
