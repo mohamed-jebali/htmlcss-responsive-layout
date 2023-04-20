@@ -94,11 +94,15 @@ button{
 
  @media screen and (min-width: 480px) {
 
+    .container{
+        flex-direction: row;
+    }
+
     .card{
-        width: calc(100% / 3 -3rem);
+        width: calc(100% / 3 - 3rem);
     }
     .card:first-child{
-        width: calc(100% * 2 -3rem);
+        width: calc(100% * 2 - 3rem);
     }
  }
  /* Desktop dai 768px in su */
