@@ -26,6 +26,9 @@ header{
     max-width: 480px;
     margin: auto;
 }
+.margin-auto{
+    margin: auto;
+}
 .header-wrapper{
     justify-content: space-between;
     align-items: center;
@@ -44,12 +47,35 @@ header{
     text-decoration: none;
 }
 .first-section{
-    padding: 2rem 0;
+    padding: 4rem 0;
 }
 .card{
-    width: 100%;
-    /* width: calc((100% / 3) *2); */
-    height: 400px;
+    width: 80%;
+    height: 650px;
     background-color: #b5ddff;
     border-radius: 1rem;
+    margin-bottom: 1.5rem;
 }
+
+
+
+
+/************************************************
+    SOLUZIONE RESPONSIVE
+ ************************************************/
+
+ /* Tablet dai 480 a 768px */
+
+ @media screen and (min-width: 480px) {
+    .container{
+        width: calc((100% / 3) *2);
+        flex-direction: row;
+    }
+ }
+ /* Desktop dai 768px in su */
+
+  @media screen and (min-width: 768px) {
+    .container{
+        width: 100%;
+    }
+ }
