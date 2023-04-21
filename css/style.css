@@ -45,10 +45,12 @@ header{
 .right-side-header>ul{
     list-style-type: none;
     display: none;
+    align-items: center;
 }
 .right-side-header ul li a{
     text-decoration: none;
     color: white;
+    margin-right: 2rem;
 }
 .first-section{
     padding: 3rem;
@@ -91,6 +93,16 @@ button{
 .blue-btn{
     background-color: #0486fd;
     color: white;
+}
+.white-btn{
+    background-color: white;
+    padding: 0.7rem 0.4rem;
+}
+.white-btn>a{
+    color: black;
+}
+.planning{
+    background-color: #9792e4;
 }
 
 
