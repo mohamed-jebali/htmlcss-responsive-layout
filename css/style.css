@@ -97,19 +97,18 @@ button{
     .container{
         flex-direction: row;
     }
-
     .card{
-        width: calc(100% / 3 - 3rem);
+        width: calc( 100% / 3 );
     }
     .card:first-child{
-        width: calc(100% * 2 - 3rem);
+        width: calc((100% / 3 ) * 2 );
     }
  }
  /* Desktop dai 768px in su */
 
   @media screen and (min-width: 768px) {
     .container{
-        /* width: calc(100% * 2); */
+        
     }
     .right-side-header>ul{
         display: block;
