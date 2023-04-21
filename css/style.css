@@ -169,14 +169,15 @@ button{
     line-height: 1.8rem;
     margin-bottom: 2rem;
 }
-.round-image{
-    height: 60px;
-    width: 60px;
-    object-fit: cover;
-    border-radius: 50%;
+p>strong{
+    padding: 2rem 0;
 }
 .round-image>img{
     height: 100%;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
 }
 
 .third-section .text-card{
@@ -216,6 +217,16 @@ button{
     }
     .third-section{
         padding: 3rem 1rem;
+    }
+    .third-section .card{
+        width: 100%;
+    }
+    .third-section .text-card{
+        display: flex;
+        text-align: left;
+    }
+    .third-section .text-card p{
+        padding: 1.5rem;
     }
  }
  /* Desktop dai 768px in su */
