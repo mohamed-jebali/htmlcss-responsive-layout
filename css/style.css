@@ -104,6 +104,15 @@ button{
 .planning{
     background-color: #9792e4;
 }
+.app-developement{
+    text-align: center;
+    background-color: white;
+    border-radius: 1rem;
+}
+.app-devolopement>i{
+    background-color: #9792e4;
+    border-radius: 50%;
+}
 
 
 
