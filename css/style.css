@@ -55,12 +55,20 @@ header{
 .first-section{
     padding: 3rem;
 }
+.second-section{
+    padding: 2rem 1rem;
+}
 .card{
     width: 100%;
-    background-color: #b5ddff;
     border-radius: 1rem;
     margin-bottom: 1.5rem;
     padding: 2rem;
+}
+.blue-color{
+    background-color: #b5ddff;
+}
+.white-color{
+    background-color: white;
 }
 .image-card>{
     height: 300px;
@@ -68,11 +76,11 @@ header{
 .image-card>img{
     height: 100%;
 }
+.second-section .image-card>img{
+    width: 100%;
+}
 .text-card{
-    /* padding: 0 1.1rem; */
     text-align: center;
-    /* line-height: 1.1rem; */
-    /* font-size: 0.65rem; */
 }
 .text-card>i{
     color: #0486fd;
@@ -104,16 +112,17 @@ button{
 .planning{
     background-color: #9792e4;
 }
-.app-developement{
-    text-align: center;
-    background-color: white;
-    border-radius: 1rem;
+.text-left{
+    text-align: left;
 }
-.app-devolopement>i{
-    background-color: #9792e4;
-    border-radius: 50%;
+.planning-text{
+    color: white;
+    line-height: 1.7rem;
 }
-
+.planning-text>h1{
+    color: white;
+    margin-bottom: 2.5rem;
+}
 
 
 
