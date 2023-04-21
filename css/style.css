@@ -185,16 +185,19 @@ button{
  /* Desktop dai 768px in su */
 
   @media screen and (min-width: 768px) {
-    .container{
+    .first-section.container{
         flex-direction: column;
     }
-    .right-side-header>ul{
+    .first-section.right-side-header>ul{
         flex-direction: row;
     }
-    .right-side-header>ul{
+    .first-section.right-side-header>ul{
         display: flex;
     }
-    .right-side-header>i{
+    .first-section.right-side-header>i{
         display: none;
+    }
+    .second-section .container{
+        flex-direction: row;
     }
  }
