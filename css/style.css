@@ -119,6 +119,9 @@ button{
 .white-btn>a{
     color: black;
 }
+.violet-color{
+    background-color: #9792e4;
+}
 .planning{
     background-color: #9792e4;
 }
@@ -164,6 +167,20 @@ button{
 }
 .upper-text>p{
     line-height: 1.8rem;
+    margin-bottom: 2rem;
+}
+.round-image{
+    height: 60px;
+    width: 60px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.round-image>img{
+    height: 100%;
+}
+
+.third-section .text-card{
+    color: white;
 }
 
 
