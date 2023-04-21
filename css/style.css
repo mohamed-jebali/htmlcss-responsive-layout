@@ -32,7 +32,7 @@ header{
 }
 .text-card>h1{
     color: #0486fd;
-    margin-bottom: 1.5rem;
+    margin: 1.5rem 0;
 }
 .margin-auto{
     margin: auto;
@@ -48,6 +48,7 @@ header{
 }
 .right-side-header ul li a{
     text-decoration: none;
+    color: white;
 }
 .first-section{
     padding: 3rem;
@@ -59,12 +60,23 @@ header{
     margin-bottom: 1.5rem;
     padding: 2rem;
 }
-.small{
-    height: 400px;
+.image-card>{
+    height: 300px;
+}
+.image-card>img{
+    height: 100%;
 }
 .text-card{
     /* padding: 0 1.1rem; */
-    line-height: 1.8rem;
+    text-align: center;
+    /* line-height: 1.1rem; */
+    /* font-size: 0.65rem; */
+}
+.text-card>i{
+    color: #0486fd;
+}
+.text-card>h1{
+    color: #0486fd;
 }
 button{
     padding: 0.7rem 4rem;
@@ -95,6 +107,9 @@ button{
     .container{
         gap:1rem;
     }
+    .card .big>.text-card{
+        text-align: left;
+    }
     .card{
         width: calc( 100% / 3 - 1rem );
     }
@@ -106,9 +121,15 @@ button{
 
   @media screen and (min-width: 768px) {
     .container{
-        
+
     }
     .right-side-header>ul{
-        display: block;
+        flex-direction: row;
+    }
+    .right-side-header>ul{
+        display: flex;
+    }
+    .right-side-header>i{
+        display: none;
     }
  }
