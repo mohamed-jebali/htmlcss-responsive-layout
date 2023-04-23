@@ -68,7 +68,7 @@ header{
     padding: 3rem;
 }
 .fifth-section{
-    padding: 2rem 3rem;
+    padding: 4rem 3rem;
 }
 .fifth-section p{
     line-height: 2rem;
@@ -85,7 +85,7 @@ header{
 .fifth-section .round-image{
     position: relative;
 }
-.fifth-section .image-about i{
+.fifth-section .image-about .quote{
     color: #9792e4;
     position: absolute;
     top: 0;
@@ -93,8 +93,9 @@ header{
 }
 .fifth-section .image-about p{
     font-weight: 600;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     padding-right: 2rem;
+    line-height: 2rem;
     color: #9792e4;
 }
 .fifth-section button{
@@ -259,7 +260,50 @@ button{
     font-size: 1.2rem;
     margin-bottom: 2rem;
 }
-
+.sixth-section{
+    padding: 3rem 2.5rem;
+}
+.sixth-section>div{
+    text-align: center;
+    color: white;
+}
+.sixth-section ul{
+    display: flex;
+    font-size: 0.75rem;
+    justify-content: center;
+    margin-top: 1rem;
+    gap: 1rem;
+}
+.sixth-section ul li:last-child{
+    text-decoration: underline;
+}
+.sixth-section ul li:first-child{
+    list-style-type: none;
+}
+.sixth-section h1{
+    font-size: 3rem;
+}
+.sixth-section p:first-child{
+    color: #c1c0ef;
+}
+.sixth-section p{
+    line-height: 1.7rem;
+    margin: 1rem 0;
+}
+.sixth-section .pricing-title{
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: bold;
+}
+.sixth-section button{
+    padding: 1.2rem 4rem;
+    color: #9792e4;
+    margin: 1rem 0;
+    font-weight: bold;
+}
+.orange-color{
+    color: #fdc15f;
+}
 
 
 /************************************************
@@ -307,6 +351,12 @@ button{
     .third-section .text-card p{
         padding: 1.5rem;
     }
+    .fifth-section .text-left{
+        width: calc(100% / 2 - 2rem);
+    }
+    .sixth-section .text-pricing{
+        padding: 0 4rem;
+    }
  }
  /* Desktop dai 768px in su */
 
@@ -339,5 +389,8 @@ button{
     }
     .fourth-section .card{
         width: calc( 100% / 3 - 1rem );
+    }
+    .sixth-section .text-pricing{
+        padding: 0 10rem;
     }
  }
