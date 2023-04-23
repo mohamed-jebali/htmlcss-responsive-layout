@@ -304,6 +304,21 @@ button{
 .orange-color{
     color: #fdc15f;
 }
+footer{
+    background-color: #333333;
+    color: white;
+    font-size: 0.75rem;
+    padding: 3rem 3rem;
+}
+footer div.container{
+    text-align: center;
+}
+footer p{
+    margin-bottom: 3rem;
+}
+footer p a{
+    color: #9792e4;
+}
 
 
 /************************************************
@@ -357,6 +372,13 @@ button{
     .sixth-section .text-pricing{
         padding: 0 4rem;
     }
+    .link-footer{
+        margin: auto;
+        padding: 0 9rem;
+    }
+    footer div>p{
+        padding: 0 7rem;
+    }
  }
  /* Desktop dai 768px in su */
 
@@ -392,5 +414,8 @@ button{
     }
     .sixth-section .text-pricing{
         padding: 0 10rem;
+    }
+    footer div.container{
+        padding: 0 11rem;
     }
  }
